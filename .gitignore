@@ -1,0 +1,20 @@
+# General Directories
+
+.vscode/
+code/__pycache__
+images/IMG_*
+images/jpg_images/IMG_*
+
+# Exceptions
+
+!images/IMG_3793*
+!images/IMG_3794*
+!images/IMG_3795*
+
+!images/jpg_images/IMG_3827*
+!images/jpg_images/IMG_3828*
+!images/jpg_images/IMG_3829*
+
+# Specific Files
+
+images/Photos.zip
