@@ -2,26 +2,26 @@
 
 This repository contains an implementation of multiple image stitching. For explanation refer my blog post : [Creating a panorama using multiple images](http://kushalvyas.github.io/stitching.html)
 
-### Requirements : 
+### Requirements :
 
 - Python 2.7
-- Numpy >= 1.8 
-- OpenCV 3.1.0 
+- Numpy >= 1.8
+- OpenCV 3.1.0
 
 
-### Project Structure : 
-	
+### Project Structure :
+
 		|_ code -|
 		|		 |-- pano.py
 		|		 |-- txtlists-|
-		|		 			  |--files1.txt .... 
-		|	
+		|		 			  |--files1.txt ....
+		|
 		|_ images - |
 		|			|- img1.jpg
-		|			|- abc.jpg 
-		|			.... and so on ... 
+		|			|- abc.jpg
+		|			.... and so on ...
 
-Demo txtfile : 
+Demo txtfile :
 files2.txt :
 
         ../../images/1.jpg
@@ -29,12 +29,12 @@ files2.txt :
         ../../images/3.jpg
         ../../images/4.jpg
 
-### To run : 
+### To run :
 
-    `python pano.py <txtlists/filename_.txt>`
+    `python pano.py txtlists/files1.txt`
 
 
-## Outputs !! 
+## Outputs !!
 
 <center>
 <img src="lunchroom_ultimate.jpg" ><br>
@@ -54,7 +54,7 @@ files2.txt :
 <br>
 </center>
 
-### Other WebSources for Images : 
+### Other WebSources for Images :
 Base paper for panorama using scale invariant features :
 
 [1] "Automatic Panoramic Image Stitching using Invariant Features", Download.springer.com, 2016. [Online]. Available: matthewalunbrown.com/papers/ijcv2007.pdf
@@ -66,6 +66,6 @@ Test images taken from :
 
 [3] "OpenCV Stitching example (Stitcher class, Panorama)", Study.marearts.com, 2013. [Online]. Available: http://study.marearts.com/2013/11/opencv-stitching-example-stitcher-class.html.
 
-[4] "Github daeyun Image-Stitching Test Images", 2016. [Online]. Available: https://github.com/daeyun/Image-Stitching/tree/master/img/hill. 
+[4] "Github daeyun Image-Stitching Test Images", 2016. [Online]. Available: https://github.com/daeyun/Image-Stitching/tree/master/img/hill.
 
 [5] "Github tsherlock Test Images", 2016. [Online]. Available: .  https://github.com/tsherlock/panorama/
