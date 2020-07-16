@@ -3,7 +3,9 @@
 .vscode/
 code/__pycache__
 images/IMG_*
-images/jpg_images/IMG_*
+images/square_images/IMG_*
+images/__pycache__
+images/square_images/__pycache__
 
 # Exceptions
 
