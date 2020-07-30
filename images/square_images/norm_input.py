@@ -9,13 +9,9 @@ import imutils
 def normalize_image(imageFile):
     '''
     Convert normal image to an image that can be used for stitching
-
     Input:
-    ------------------
     imageFile - The full path directory of the image to be normalized
-
     Output:
-    ------------------
     void - Preforms a set of transfomrations on image and creates .png image based on old images
     '''
     # load image as grayscale
